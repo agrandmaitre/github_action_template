@@ -6,9 +6,7 @@ jobs:
   run-npm-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Set var
-        run: |
-          echo "NODE_VERSION=24" >> $GITHUB_ENV
+
 
       - name: checkout
         uses: actions/checkout@v6
