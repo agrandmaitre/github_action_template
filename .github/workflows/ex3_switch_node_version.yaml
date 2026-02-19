@@ -14,6 +14,8 @@ jobs:
           uses: actions/setup-node@v6
           with:
             node-version: '"${{ env.NODE_VERSION }}"'
+        -name: check node version
+          shell: bash
           run: |
             node -v            
         - name: run test
