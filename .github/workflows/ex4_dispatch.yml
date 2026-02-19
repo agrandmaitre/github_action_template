@@ -1,0 +1,7 @@
+name: Workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  run-npm-test:
+    uses: ./.github/workflows/ex4_call.yml@main
