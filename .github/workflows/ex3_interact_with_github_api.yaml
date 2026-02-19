@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: create short sha
         id: short_sha
-          outputs:
-            sha_short: ${GITHUB_SHA::7}      
+        outputs:
+          sha_short: ${GITHUB_SHA::7}      
 
       - name: create issue
         shell: bash
