@@ -20,7 +20,7 @@ jobs:
       - name: check node version
         shell: bash
         run: |
-          node -v6
+          node -v
 
       - name: run test
         shell: bash
