@@ -10,7 +10,7 @@ jobs:
         version: [20, lts/*]
         include:
           - os: ubuntu-latest
-            node: 18
+            version: 18
     runs-on: ${{ matrix.os }}
     steps:
         - name: checkout
