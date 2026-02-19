@@ -6,7 +6,7 @@ jobs:
   run-npm-test:
     runs-on: ubuntu-latest
     env:
-      NODE_VERSION: 24
+      NODE_VERSION: '24'
     steps:
         - name: checkout
           uses: actions/checkout@v6
